@@ -1,0 +1,9 @@
+def main():
+    numbers = input("Введите список чисел через пробел: ").split()
+    numbers = [int(num) for num in numbers]  # Преобразуем строки в целые числа
+    sorted_numbers = sorted(numbers)
+    print("Отсортированный список:")
+    print(sorted_numbers)
+
+if __name__ == '__main__':
+    main()
